@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"Educate ME";
+    self.navigationItem.title = @"Educate ME";
     self.educateMeTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
      self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];

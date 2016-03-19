@@ -1,24 +1,22 @@
 //
-//  MyLanTestCenterViewController.m
+//  MyLanEvaluateDetailViewController.m
 //  MyLan
 //
-//  Created by TSI on 17/03/16.
+//  Created by MacbookPro on 19/03/16.
 //  Copyright © 2016 CTS. All rights reserved.
 //
 
-#import "MyLanTestCenterViewController.h"
+#import "MyLanEvaluateDetailViewController.h"
 
-@interface MyLanTestCenterViewController ()
+@interface MyLanEvaluateDetailViewController ()
 
 @end
 
-@implementation MyLanTestCenterViewController
+@implementation MyLanEvaluateDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //self.title = @"Test Centers";
-
 }
 
 - (void)didReceiveMemoryWarning {

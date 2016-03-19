@@ -13,12 +13,12 @@
 - (void)awakeFromNib {
     // Initialization code
     
-    self.leftButton.layer.cornerRadius = 55;
+    self.leftButton.layer.cornerRadius = 60;
     self.leftButton.layer.borderWidth = 2;
     self.leftButton.layer.borderColor = [[UIColor grayColor]CGColor];
     
     
-    self.rightButton.layer.cornerRadius = 55;
+    self.rightButton.layer.cornerRadius = 60;
     self.rightButton.layer.borderWidth = 2;
     self.rightButton.layer.borderColor = [[UIColor grayColor]CGColor];
 

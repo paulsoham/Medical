@@ -10,6 +10,8 @@
 		2A6E1EF41C997A7B00A92D90 /* MyLanLanguageSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6E1EEF1C997A7B00A92D90 /* MyLanLanguageSelectionViewController.m */; };
 		2A6E1EF51C997A7B00A92D90 /* MyLanLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6E1EF11C997A7B00A92D90 /* MyLanLoginViewController.m */; };
 		2A6E1EF61C997A7B00A92D90 /* MyLanSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6E1EF31C997A7B00A92D90 /* MyLanSignUpViewController.m */; };
+		52D6EEDB1C9D8FE200A94A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D6EEDA1C9D8FE200A94A28 /* Assets.xcassets */; };
+		52D6EEDE1C9D929B00A94A28 /* MyLanEvaluateDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6EEDD1C9D929B00A94A28 /* MyLanEvaluateDetailViewController.m */; };
 		AD3FF4601C9A8B0B00BEF96A /* MyLanTestCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3FF45F1C9A8B0B00BEF96A /* MyLanTestCenterViewController.m */; };
 		AD3FF4631C9A8B2500BEF96A /* MyLanHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3FF4621C9A8B2500BEF96A /* MyLanHomeViewController.m */; };
 		AD43CBB71C996935002F0978 /* UILabel+Boldify.m in Sources */ = {isa = PBXBuildFile; fileRef = AD43CBB61C996935002F0978 /* UILabel+Boldify.m */; };
@@ -21,7 +23,6 @@
 		AD6B923E1C980A8200451277 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6B923D1C980A8200451277 /* main.m */; };
 		AD6B92471C980A8200451277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6B92451C980A8200451277 /* Main.storyboard */; };
 		AD6B924A1C980A8200451277 /* MyLan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD6B92481C980A8200451277 /* MyLan.xcdatamodeld */; };
-		AD6B924C1C980A8200451277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6B924B1C980A8200451277 /* Assets.xcassets */; };
 		AD6B924F1C980A8200451277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6B924D1C980A8200451277 /* LaunchScreen.storyboard */; };
 		AD6B92581C980AF100451277 /* MyLanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6B92571C980AF100451277 /* MyLanAppDelegate.m */; };
 		AD6B925B1C980D5600451277 /* MyLanEducateMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6B925A1C980D5600451277 /* MyLanEducateMeViewController.m */; };
@@ -72,6 +73,9 @@
 		2A6E1EF11C997A7B00A92D90 /* MyLanLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLanLoginViewController.m; sourceTree = "<group>"; };
 		2A6E1EF21C997A7B00A92D90 /* MyLanSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLanSignUpViewController.h; sourceTree = "<group>"; };
 		2A6E1EF31C997A7B00A92D90 /* MyLanSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLanSignUpViewController.m; sourceTree = "<group>"; };
+		52D6EEDA1C9D8FE200A94A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D6EEDC1C9D929B00A94A28 /* MyLanEvaluateDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLanEvaluateDetailViewController.h; sourceTree = "<group>"; };
+		52D6EEDD1C9D929B00A94A28 /* MyLanEvaluateDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLanEvaluateDetailViewController.m; sourceTree = "<group>"; };
 		AD3FF45E1C9A8B0B00BEF96A /* MyLanTestCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLanTestCenterViewController.h; sourceTree = "<group>"; };
 		AD3FF45F1C9A8B0B00BEF96A /* MyLanTestCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLanTestCenterViewController.m; sourceTree = "<group>"; };
 		AD3FF4611C9A8B2500BEF96A /* MyLanHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLanHomeViewController.h; sourceTree = "<group>"; };
@@ -91,7 +95,6 @@
 		AD6B923D1C980A8200451277 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD6B92461C980A8200451277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD6B92491C980A8200451277 /* MyLan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyLan.xcdatamodel; sourceTree = "<group>"; };
-		AD6B924B1C980A8200451277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD6B924E1C980A8200451277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD6B92501C980A8200451277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6B92561C980AF100451277 /* MyLanAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLanAppDelegate.h; sourceTree = "<group>"; };
@@ -190,6 +193,8 @@
 				AD6B925D1C980DA000451277 /* MyLanEvaluateMeViewController.m */,
 				ADC1ECE51C985D34009E9E12 /* MyLanEvaluateTableViewCell.h */,
 				ADC1ECE61C985D34009E9E12 /* MyLanEvaluateTableViewCell.m */,
+				52D6EEDC1C9D929B00A94A28 /* MyLanEvaluateDetailViewController.h */,
+				52D6EEDD1C9D929B00A94A28 /* MyLanEvaluateDetailViewController.m */,
 			);
 			name = "Evaluate Me Module";
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 		AD6B923B1C980A8200451277 /* MyLan */ = {
 			isa = PBXGroup;
 			children = (
+				52D6EEDA1C9D8FE200A94A28 /* Assets.xcassets */,
 				AD3FF45B1C9A8AAF00BEF96A /* Common */,
 				AD3FF4581C9A8A4500BEF96A /* Educate ME Module */,
 				AD3FF4591C9A8A6700BEF96A /* Evaluate Me Module */,
@@ -290,7 +296,6 @@
 				AD43CBB81C998A31002F0978 /* JSON */,
 				AD6B926B1C982E2600451277 /* Images */,
 				AD6B92451C980A8200451277 /* Main.storyboard */,
-				AD6B924B1C980A8200451277 /* Assets.xcassets */,
 				AD6B924D1C980A8200451277 /* LaunchScreen.storyboard */,
 				AD6B92501C980A8200451277 /* Info.plist */,
 				AD6B92481C980A8200451277 /* MyLan.xcdatamodeld */,
@@ -432,6 +437,7 @@
 				AD7BE9C41C993C5C002F8256 /* face6.jpeg in Resources */,
 				AD6B92881C982E2600451277 /* Bubble-3@2x.png in Resources */,
 				AD7BE9C61C993C5C002F8256 /* face8.jpeg in Resources */,
+				52D6EEDB1C9D8FE200A94A28 /* Assets.xcassets in Resources */,
 				AD7BE9BF1C993C5C002F8256 /* face10.jpeg in Resources */,
 				AD7BE9C31C993C5C002F8256 /* face5.jpeg in Resources */,
 				AD7BE9C01C993C5C002F8256 /* face2.jpeg in Resources */,
@@ -446,7 +452,6 @@
 				AD43CBBA1C998A31002F0978 /* evaluateme.json in Resources */,
 				AD6B924F1C980A8200451277 /* LaunchScreen.storyboard in Resources */,
 				AD6B92871C982E2600451277 /* Bubble-3.png in Resources */,
-				AD6B924C1C980A8200451277 /* Assets.xcassets in Resources */,
 				AD6B928F1C982E2600451277 /* Bubble-7.png in Resources */,
 				AD7BE9C51C993C5C002F8256 /* face7.jpeg in Resources */,
 				AD6B92891C982E2600451277 /* Bubble-4.png in Resources */,
@@ -478,6 +483,7 @@
 				AD6B92671C980E9500451277 /* MyLanMyCommunityViewController.m in Sources */,
 				AD6B923E1C980A8200451277 /* main.m in Sources */,
 				ADC1ECE11C98467A009E9E12 /* MyLanUtility.m in Sources */,
+				52D6EEDE1C9D929B00A94A28 /* MyLanEvaluateDetailViewController.m in Sources */,
 				AD6B926A1C982DB800451277 /* MyLanBubbleTableViewCell.m in Sources */,
 				BA3CF8061C9D616700447C3C /* MyLanEducateMeDetailViewController.m in Sources */,
 				AD6B924A1C980A8200451277 /* MyLan.xcdatamodeld in Sources */,

@@ -23,7 +23,7 @@ static NSString *ML_EVALUATE_CELL_ID = @"CellId";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"Evaluate ME";
+//    self.title = @"Evaluate ME";
 //    [self.questionAnsOptionList registerClass:[MyLanEvaluateTableViewCell class] forCellReuseIdentifier:@"CellId"];
     self.questionAnsOptionList.delegate = self;
     self.questionAnsOptionList.dataSource = self;

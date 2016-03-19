@@ -34,9 +34,9 @@
     
     
     
-    [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
-    [[UITabBar appearance] setBarTintColor:UIColorFromRGB(0x0088b4)];
-    
+    [[UITabBar appearance] setTintColor:UIColorFromRGB(0x0088b4)];
+    [[UITabBar appearance] setBarTintColor:UIColorFromRGB(0xececec)];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 
 
     return YES;
@@ -50,40 +50,40 @@
         
         
         MyLanEducateMeViewController *educateMeViewController = [storyboard instantiateViewControllerWithIdentifier:@"MyEducateMeID"];
-        educateMeViewController.tabBarItem.image=[UIImage imageNamed:@"TabIcon.png"];
+        educateMeViewController.tabBarItem.image=[UIImage imageNamed:@"educate_me_new"];
         educateMeViewController.tabBarItem.title = nil;
         UINavigationController *educateMeListNav=[[UINavigationController alloc] initWithRootViewController:educateMeViewController];
         
         
         MyLanEvaluateMeViewController *evaluateMeViewController = [storyboard instantiateViewControllerWithIdentifier:@"MyEvaluateMeID"];
-        evaluateMeViewController.tabBarItem.image=[UIImage imageNamed:@"TabIcon.png"];
+        evaluateMeViewController.tabBarItem.image=[UIImage imageNamed:@"evaluate-me"];
         evaluateMeViewController.tabBarItem.title = nil;
         UINavigationController *evaluateMeViewNav=[[UINavigationController alloc] initWithRootViewController:evaluateMeViewController];
         
        
         MyLanMyCommunityViewController *myCommunityViewController = [storyboard instantiateViewControllerWithIdentifier:@"MyCommunityID"];
-        myCommunityViewController.tabBarItem.image=[UIImage imageNamed:@"TabIcon.png"];
+        myCommunityViewController.tabBarItem.image=[UIImage imageNamed:@"my_community_new"];
         myCommunityViewController.tabBarItem.title = nil;
         UINavigationController *myCommunityViewNav=[[UINavigationController alloc] initWithRootViewController:myCommunityViewController];
         
         
         MyLanTestCenterViewController *myTestCenterViewController = [storyboard instantiateViewControllerWithIdentifier:@"MyTestCenterID"];
-        myTestCenterViewController.tabBarItem.image=[UIImage imageNamed:@"TabIcon.png"];
+        myTestCenterViewController.tabBarItem.image=[UIImage imageNamed:@"adher"];
         myTestCenterViewController.tabBarItem.title = nil;
         UINavigationController *myTestCenterViewNav=[[UINavigationController alloc] initWithRootViewController:myTestCenterViewController];
         
         
         MyLanHomeViewController *myHomeViewController = [storyboard instantiateViewControllerWithIdentifier:@"MyHomeID"];
-        myHomeViewController.tabBarItem.image=[UIImage imageNamed:@"TabIcon.png"];
+        myHomeViewController.tabBarItem.image=[UIImage imageNamed:@"myhome"];
         myHomeViewController.tabBarItem.title = nil;
         UINavigationController *myHomeViewNav=[[UINavigationController alloc] initWithRootViewController:myHomeViewController];
         
         
         [localViewControllersArray addObject:educateMeListNav];
         [localViewControllersArray addObject:evaluateMeViewNav];
-        [localViewControllersArray addObject:myCommunityViewNav];
-        [localViewControllersArray addObject:myTestCenterViewNav];
         [localViewControllersArray addObject:myHomeViewNav];
+        [localViewControllersArray addObject:myTestCenterViewNav];
+        [localViewControllersArray addObject:myCommunityViewNav];
 
         
         
@@ -92,6 +92,10 @@
         [self.tabBarController setSelectedIndex:viewControllerIndex];
         
         self.window.rootViewController = self.tabBarController;
+        for(UITabBarItem * tabBarItem in self.tabBarController.tabBar.items){
+            tabBarItem.title = @"";
+            tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
+        }
     }else{
 
         NSMutableArray *localViewControllersArray = [[NSMutableArray alloc] initWithCapacity:5];
