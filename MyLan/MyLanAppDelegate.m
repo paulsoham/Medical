@@ -30,12 +30,12 @@
     
     [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName, [UIFont fontWithName:@"FontNAme" size:15], NSFontAttributeName, nil]];
     
-    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x00b0f0)];
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x0088b4)];
     
     
     
     [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
-    [[UITabBar appearance] setBarTintColor:UIColorFromRGB(0x00b0f0)];
+    [[UITabBar appearance] setBarTintColor:UIColorFromRGB(0x0088b4)];
     
 
 
